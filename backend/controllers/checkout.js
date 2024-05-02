@@ -23,7 +23,9 @@ export const checkout = async (req, res) => {
 };
 
 //Base URL
-const cryptomus = axios.create({ baseURL: "https://api.cryptomus.com/v1" });
+const cryptomus = axios.create({
+  baseURL: "https://api.cryptomus.com/v1",
+});
 
 const createInvoice = async (amount) => {
   try {
@@ -31,8 +33,8 @@ const createInvoice = async (amount) => {
       amount: amount,
       currency: "USD",
       order_id: crypto.randomBytes(12).toString("hex"),
-      url_return: "https://mern-stack-volunteer.vercel.app/donate",
-      url_success: "https://mern-stack-volunteer.vercel.app",
+      url_return: "https://mern-stack-volunteer-iota.vercel.app/donate ",
+      url_success: "https://mern-stack-volunteer-iota.vercel.app",
       lifetime: 300,
     };
 
