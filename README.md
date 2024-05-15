@@ -11,7 +11,7 @@ Welcome to the MERN (MongoDB, Express.js, React.js, Node.js) stack volunteer pro
 -  **Responsive Design:** Ensure a seamless experience across different devices and screen sizes.
 ## Installation
 ```
-`git clone https://github.com/yourusername/mern-volunteer-project.git`
+git clone https://github.com/ravi-143kiran/MERN-STACK-VOLUNTEER
 ```
 2.  Install dependencies:
 ```
